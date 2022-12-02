@@ -1,3 +1,7 @@
+# React UI Components
+
+Just an opensource repo for inspiration, where our devs build random, clean and beautiful components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
