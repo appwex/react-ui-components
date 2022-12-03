@@ -1,5 +1,5 @@
-import "./test-page.css";
-import { Link } from "react-router-dom";
+import './test-page.css';
+import { Link } from 'react-router-dom';
 
 const TestPage = () => {
   return (

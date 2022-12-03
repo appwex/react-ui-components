@@ -1,5 +1,5 @@
-import "./story-page.css";
-import { Link } from "react-router-dom";
+import './story-page.css';
+import { Link } from 'react-router-dom';
 
 const StoryPage = () => {
   return (
