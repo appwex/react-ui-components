@@ -1,0 +1,7 @@
+.story {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  gap: 10px;
+}
