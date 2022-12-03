@@ -1,9 +1,9 @@
-import "./homepage.css";
-import { Link } from "react-router-dom";
+import './homepage.css'
+import { Link } from 'react-router-dom'
 
 export default function Homepage() {
   return (
-    <div className='homepage'>
+    <div className="homepage">
       <h1>This is homepage test</h1>
       <ul>
         <li>
@@ -14,5 +14,5 @@ export default function Homepage() {
         </li>
       </ul>
     </div>
-  );
+  )
 }

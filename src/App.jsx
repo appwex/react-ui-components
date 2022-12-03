@@ -1,7 +1,7 @@
-import "./App.css";
-import { Outlet } from "react-router-dom";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+import './App.css'
+import { Outlet } from 'react-router-dom'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Footer />
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
