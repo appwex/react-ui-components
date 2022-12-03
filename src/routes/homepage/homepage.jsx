@@ -1,7 +1,7 @@
 import "./homepage.css";
 import { Link } from "react-router-dom";
 
-export default function Homepage() {
+const Homepage = () => {
   return (
     <div className="homepage">
       <h1>This is homepage test</h1>
@@ -15,4 +15,6 @@ export default function Homepage() {
       </ul>
     </div>
   );
-}
+};
+
+export default Homepage;
