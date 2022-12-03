@@ -1,10 +1,11 @@
-
 import "./header.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <div className="header">
-        <h1>This is header section</h1>
+      <h1>React UI Components</h1>
     </div>
   );
-}
+};
+
+export default Header;

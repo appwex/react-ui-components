@@ -1,10 +1,13 @@
-
 import "./footer.css";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
-        <h1>Footer section</h1>
+      <a href="https://github.com/appwex/react-ui-components">
+        https://github.com/appwex/react-ui-components
+      </a>
     </div>
   );
-}
+};
+
+export default Footer;
