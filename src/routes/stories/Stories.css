@@ -1,0 +1,35 @@
+.container {
+  background-color: #f9f9f9;
+  min-height: 98.5vh;
+  height: 100%;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.variantSelector {
+  all: unset;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 20px #666;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.variantSelector:hover {
+  background-color: #fff;
+  box-shadow: 0 0 10px #666;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 98.5vh;
+}
