@@ -1,0 +1,43 @@
+.btn {
+  all: unset;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+  background: white;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.bordered {
+  border: 1px solid dodgerblue;
+  background: white;
+}
+
+.bordered:hover {
+  border-color: transparent;
+  background: dodgerblue;
+  color: white;
+}
+
+.fill {
+  background: dodgerblue;
+  color: white;
+}
+
+.fill:hover {
+  color: black;
+  border: 1px solid dodgerblue;
+  background: white;
+}
+
+.transparent {
+  border: 1px solid dodgerblue;
+  background: transparent;
+  color: black;
+}
+
+.transparent:hover {
+  background: dodgerblue;
+  box-shadow: 0 0 10px 4px dodgerblue;
+  color: white;
+}
