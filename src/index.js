@@ -33,6 +33,10 @@ const router = createBrowserRouter([
         path: 'stories/component',
         element: <ComponentStory />,
       },
+      {
+        path: "stories/button",
+        element: <ButtonStory />,
+      },
     ],
   },
 ]);
