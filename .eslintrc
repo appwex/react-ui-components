@@ -5,7 +5,6 @@
       "node": true
     },
     "extends": [
-      "eslint:recommended",
       "plugin:react/recommended",
       "plugin:prettier/recommended"
     ],
@@ -18,7 +17,9 @@
       "sourceType": "module"
     },
     "rules": {
-      "react/react-in-jsx-scope": 0
+      "react/react-in-jsx-scope": 0,
+      "react/jsx-uses-vars" : "error",
+      "react/prop-types" : 0
     },
     "globals": {
       "Go": "readonly",
