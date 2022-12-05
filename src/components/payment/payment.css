@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+}
+.payment {
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  background-color: #fff;
+  width: 34.2rem;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentHeader {
+  color: #1c1c1e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  margin-bottom: 3.5rem;
+}
+
+.paymentTable {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.paymentTabbleItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paymentTitle {
+  color: #8e8e93;
+}
+
+.paymentPrice {
+  color: #1c1c1e;
+}
+
+.paymentTotal {
+  color: #1c1c1e;
+  font-weight: 500;
+}
+
+.paymentTotalPrice {
+  color: #34c759;
+  font-weight: 500;
+}
+
+.paymentBtn {
+  font-size: inherit;
+  cursor: pointer;
+  height: 4.2rem;
+  background: #5856d6;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+}

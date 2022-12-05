@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import './index.css';
-import App from './App';
+import './index.css'
+import App from './App'
 
-import ErrorPage from './routes/error-page/error-page';
-import StoryPage from './routes/story-page/story-page';
-import Homepage from './routes/homepage/homepage';
-import TestPage from './routes/test-page.jsx/test-page';
-import ComponentStory from './routes/story-page/componet';
-import ButtonStory from './routes/story-page/button';
-import NotificationStory from './routes/notification-page/index';
+import ErrorPage from './routes/error-page/error-page'
+import StoryPage from './routes/story-page/story-page'
+import Homepage from './routes/homepage/homepage'
+import TestPage from './routes/test-page.jsx/test-page'
+import ComponentStory from './routes/story-page/componet'
+import ButtonStory from './routes/story-page/button'
+import NotificationStory from './routes/notification-page/index'
 
 const router = createBrowserRouter([
   {
@@ -45,11 +45,11 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+])
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
-);
+)
