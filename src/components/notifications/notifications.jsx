@@ -19,7 +19,6 @@ const Notifications = () => {
       amount: 1,
     },
   ];
-  console.log(notificationData);
 
   return (
     <div className="notification-container">
