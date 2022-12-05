@@ -11,6 +11,7 @@ import Homepage from './routes/homepage/homepage';
 import TestPage from './routes/test-page.jsx/test-page';
 import ComponentStory from './routes/story-page/componet';
 import ButtonStory from './routes/story-page/button';
+import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/button',
         element: <ButtonStory />,
+      },
+      {
+        path: 'components/sidebarmenu',
+        element: <SidebarMenuComponent />,
       },
     ],
   },
