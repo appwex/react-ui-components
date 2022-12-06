@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <ButtonStory />,
       },
       {
-        path: '/quicktransfer',
+        path: 'stories/quicktransfer',
         element: <QuickTransfer />,
       },
     ],
