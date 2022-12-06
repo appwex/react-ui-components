@@ -1,12 +1,12 @@
-import './quickTransfer.css';
+import './quickTransfer.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
 
 const QuickTransfer = () => {
   return (
@@ -39,10 +39,10 @@ const QuickTransfer = () => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default QuickTransfer;
+export default QuickTransfer
 
 const images = [
   {
@@ -69,4 +69,4 @@ const images = [
     id: 6,
     url: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
-];
+]
