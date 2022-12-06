@@ -4,14 +4,12 @@
   margin-top: 12px;
   margin-bottom: 12px;
   position: relative;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 0px;
   gap: 15px;
-
   border-left: 2px solid #f2f2f7;
 }
 
