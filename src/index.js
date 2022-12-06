@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <ButtonStory />,
       },
       {
-        path: 'components/notification',
+        path: 'stories/notification',
         element: <NotificationPage />,
       },
     ],
