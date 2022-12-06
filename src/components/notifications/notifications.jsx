@@ -43,23 +43,26 @@ const Notifications = () => {
           <p>Notifications</p>
           <span>1</span>
         </div>
-        <SettingIcon />
+        <div className="notification-setting-icon">
+          <SettingIcon />
+        </div>
       </div>
       <div className="notification-list">
         <ul>
           {notificationData.map((item, idx) => {
             return (
-              <NotificationBar
-                key={item.id}
-                idx={idx}
-                type={item.type}
-                to={item.to}
-                from={item.from}
-                amount={item.amount}
-                unit={item.unit}
-                isActive={idx === isActiveBar}
-                handleIsActiveBar={handleIsActiveBar}
-              />
+              <li key={item.id}>
+                <NotificationBar
+                  idx={idx}
+                  type={item.type}
+                  to={item.to}
+                  from={item.from}
+                  amount={item.amount}
+                  unit={item.unit}
+                  isActive={idx === isActiveBar}
+                  handleIsActiveBar={handleIsActiveBar}
+                />
+              </li>
             );
           })}
         </ul>

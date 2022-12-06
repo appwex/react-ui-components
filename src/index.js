@@ -11,7 +11,7 @@ import Homepage from './routes/homepage/homepage';
 import TestPage from './routes/test-page.jsx/test-page';
 import ComponentStory from './routes/story-page/componet';
 import ButtonStory from './routes/story-page/button';
-import NotificationPage from './routes/notification-page/index';
+import NotificationStory from './routes/notification-page/index';
 
 const router = createBrowserRouter([
   {
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'stories/notification',
-        element: <NotificationPage />,
+        element: <NotificationStory />,
       },
     ],
   },

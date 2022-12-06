@@ -1,9 +1,7 @@
 import Notifications from '../../components/notifications/notifications';
 
 const NotificationStory = () => {
-  return (
-     <Notifications />
-  );
+  return <Notifications />;
 };
 
-export default NotificationPage;
+export default NotificationStory;
