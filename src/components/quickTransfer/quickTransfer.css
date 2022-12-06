@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.transfer-box {
+  display: flex;
+  align-items: center;
+}
+
+.transfer {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 18rem;
+  margin: auto;
+}
+
+h2 {
+  color: #1c1c1e;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+p {
+  color: #3a3a3c;
+  font-size: 13px;
+}
+
+.user-profiles {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0.8rem;
+  user-select: none;
+}
+
+.user-img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide:not(.swiper-slide-next) {
+  opacity: 0.4;
+}
+
+.swiper-button-next {
+  background: no-repeat url(./rightarrow.svg) center/50%;
+  transform: translate(10px, 5px);
+}
+
+.swiper-button-prev {
+  background: no-repeat url(./leftarrow.svg) center/50%;
+  transform: translate(-10px, 5px);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 2rem !important;
+}
+
+.swiper-slide-next img {
+  width: 100%;
+  padding: 0.3rem;
+  border: 5px solid #f9f9f9;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.input-box {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+#amount {
+  outline: none;
+  border: 1px solid #e5e5ea;
+  border-radius: 8px;
+  padding: 0.8rem;
+  width: -webkit-fill-available;
+}
+
+.transfer-btn {
+  background: #5856d6;
+  color: #fff;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: end;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  width: -webkit-fill-available;
+}
+
+.transfer-btn svg {
+  margin-left: 2rem;
+}
