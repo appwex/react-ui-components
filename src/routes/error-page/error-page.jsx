@@ -1,9 +1,9 @@
-import { useRouteError } from 'react-router-dom';
-import './error-page.css';
+import { useRouteError } from 'react-router-dom'
+import './error-page.css'
 
 const ErrorPage = () => {
-  const error = useRouteError();
-  console.error(error);
+  const error = useRouteError()
+  console.error(error)
 
   return (
     <div className="container">
@@ -13,7 +13,7 @@ const ErrorPage = () => {
         <i>{error.statusText || error.message}</i>
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default ErrorPage;
+export default ErrorPage

@@ -1,8 +1,8 @@
-import './notificationBar.css';
+import './notificationBar.css'
 
-import { ReactComponent as SendIcon } from '../../assets/svg/send.svg';
-import { ReactComponent as ReceiveIcon } from '../../assets/svg/receive.svg';
-import { ReactComponent as NotificationErrorIcon } from '../../assets/svg/notification-error.svg';
+import { ReactComponent as SendIcon } from '../../assets/svg/send.svg'
+import { ReactComponent as ReceiveIcon } from '../../assets/svg/receive.svg'
+import { ReactComponent as NotificationErrorIcon } from '../../assets/svg/notification-error.svg'
 
 const NotificationBar = ({
   idx,
@@ -71,7 +71,7 @@ const NotificationBar = ({
         </>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default NotificationBar;
+export default NotificationBar

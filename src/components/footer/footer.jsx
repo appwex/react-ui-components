@@ -1,4 +1,4 @@
-import './footer.css';
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         https://github.com/appwex/react-ui-components
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

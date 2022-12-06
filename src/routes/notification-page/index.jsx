@@ -1,7 +1,7 @@
-import Notifications from '../../components/notifications/notifications';
+import Notifications from '../../components/notifications/notifications'
 
 const NotificationStory = () => {
-  return <Notifications />;
-};
+  return <Notifications />
+}
 
-export default NotificationStory;
+export default NotificationStory

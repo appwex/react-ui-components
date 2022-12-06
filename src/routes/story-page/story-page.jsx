@@ -1,5 +1,5 @@
-import './story-page.css';
-import { Link } from 'react-router-dom';
+import './story-page.css'
+import { Link } from 'react-router-dom'
 
 const StoryPage = () => {
   return (
@@ -11,7 +11,7 @@ const StoryPage = () => {
       <Link to={`/stories/quicktransfer`}>Quick transfer component</Link>
       <Link to={`/stories/notification`}>Notification Bar Component</Link>
     </div>
-  );
-};
+  )
+}
 
-export default StoryPage;
+export default StoryPage

@@ -1,5 +1,5 @@
-import './homepage.css';
-import { Link } from 'react-router-dom';
+import './homepage.css'
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -14,7 +14,7 @@ const Homepage = () => {
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default Homepage;
+export default Homepage
