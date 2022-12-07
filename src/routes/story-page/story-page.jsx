@@ -10,6 +10,7 @@ const StoryPage = () => {
       <Link to={`/stories/button`}>Example Button</Link>
       <Link to={`/stories/quicktransfer`}>Quick transfer component</Link>
       <Link to={`/stories/notification`}>Notification Bar Component</Link>
+      <Link to={`/stories/payment`}> Payment </Link>
     </div>
   )
 }

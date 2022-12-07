@@ -1,5 +1,5 @@
-import './App.css';
-import { Outlet } from 'react-router-dom';
+import './App.css'
+import { Outlet } from 'react-router-dom'
 // import Header from "./components/header/header";
 // import Footer from "./components/footer/footer";
 
@@ -16,7 +16,7 @@ const App = () => {
         <Footer />
       </footer> */}
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
