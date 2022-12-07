@@ -43,6 +43,10 @@ const router = createBrowserRouter([
         path: 'stories/notification',
         element: <NotificationStory />,
       },
+      {
+        path: 'stories/payment',
+        element: <Payment />,
+      },
     ],
   },
 ])
