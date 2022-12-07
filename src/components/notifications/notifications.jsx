@@ -1,8 +1,8 @@
-import NotificationBar from './notificationBar';
-import './notifications.css';
-import { ReactComponent as SettingIcon } from '../../assets/svg/setting.svg';
-import { ReactComponent as CongratulationIcon } from '../../assets/svg/congratulation.svg';
-import { useState } from 'react';
+import NotificationBar from './notificationBar'
+import './notifications.css'
+import { ReactComponent as SettingIcon } from '../../assets/svg/setting.svg'
+import { ReactComponent as CongratulationIcon } from '../../assets/svg/congratulation.svg'
+import { useState } from 'react'
 // expected input
 
 const Notifications = () => {
@@ -28,13 +28,13 @@ const Notifications = () => {
       amount: 0.020291,
       unit: 'BTC',
     },
-  ];
+  ]
 
-  const [isActiveBar, setIsActiveBar] = useState(0);
+  const [isActiveBar, setIsActiveBar] = useState(0)
 
   const handleIsActiveBar = input => {
-    setIsActiveBar(input);
-  };
+    setIsActiveBar(input)
+  }
 
   return (
     <div className="notification-container">
@@ -63,7 +63,7 @@ const Notifications = () => {
                   handleIsActiveBar={handleIsActiveBar}
                 />
               </li>
-            );
+            )
           })}
         </ul>
       </div>
@@ -79,7 +79,7 @@ const Notifications = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Notifications;
+export default Notifications

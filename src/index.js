@@ -11,6 +11,7 @@ import Homepage from './routes/homepage/homepage'
 import TestPage from './routes/test-page.jsx/test-page'
 import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
+import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/button',
         element: <ButtonStory />,
+      },
+      {
+        path: 'stories/quicktransfer',
+        element: <QuickTransfer />,
       },
       {
         path: 'stories/notification',

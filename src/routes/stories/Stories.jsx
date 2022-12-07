@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import PropTypes from 'prop-types';
+import { useState } from 'react'
+import PropTypes from 'prop-types'
 
-import './Stories.css';
+import './Stories.css'
 
 const Stories = ({ argList, template, customClass }) => {
-  const [arg, setArg] = useState(argList[0].arg || '');
-  const args = argList.find(el => el.arg === arg);
+  const [arg, setArg] = useState(argList[0].arg || '')
+  const args = argList.find(el => el.arg === arg)
 
   return (
     <div className={`container ${customClass}`}>
@@ -24,13 +24,13 @@ const Stories = ({ argList, template, customClass }) => {
 
       <div className="content">{template(args)}</div>
     </div>
-  );
-};
+  )
+}
 
 Stories.propTypes = {
   argList: PropTypes.array.isRequired,
   template: PropTypes.func.isRequired,
   customClass: PropTypes.string,
-};
+}
 
-export default Stories;
+export default Stories
