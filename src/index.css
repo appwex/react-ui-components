@@ -10,3 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+input{
+  outline: none;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
