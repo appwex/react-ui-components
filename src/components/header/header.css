@@ -2,18 +2,23 @@
   color: #8e8e93;
   padding: 10px 0;
 }
+
 .d-flex{
   display: flex;
 }
+
 .justify-content-center{
   justify-content: center;
 }
+
 .justify-content-start{
   justify-content: flex-start;
 }
+
 .align-items-center{
   align-items: center;
 }
+
 .navbarContainer {
   height: 54px;
   max-width: 1290px;
@@ -26,9 +31,11 @@
 .navbarBrand {
   margin-right: 40px;
 }
+
 .gap-20 {
   gap: 20px;
 }
+
 .navbarItem {
   flex-direction: column;
   color: #b8b3b3;
@@ -87,16 +94,11 @@
 .navbarSearchForm input::placeholder {
   font-size: 13px;
   color: #d1d1d6;
-  position: absolute;
-  letter-spacing: -0.005em;
   font-family: inter;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 3px;
 }
 
 .navbarSearchBtn {
-  width: 15%;
+  width: 10%;
   height: 80%;
   margin: auto;
 }
@@ -116,8 +118,8 @@
 }
 
 .navbarIcon {
-  width: 1.425rem;
-  height: 1.425rem;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
