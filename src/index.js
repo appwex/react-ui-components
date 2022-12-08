@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         element: <Payment />,
       },
       {
-        path: 'components/sidebarmenu',
+        path: 'stories/sidebarmenu-component',
         element: <SidebarMenuComponent />,
       },
     ],
