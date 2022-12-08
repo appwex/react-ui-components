@@ -9,6 +9,7 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 li {
@@ -20,7 +21,7 @@ input {
   border: none;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: inherit;
-}
+} */
