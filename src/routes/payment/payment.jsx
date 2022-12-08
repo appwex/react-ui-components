@@ -1,4 +1,4 @@
-import './payment.css';
+import './payment.css'
 
 const Payment = () => {
   return (
@@ -20,7 +20,7 @@ const Payment = () => {
       </div>
       <button className="paymentBtn">Pay Now</button>
     </section>
-  );
-};
+  )
+}
 
-export default Payment;
+export default Payment
