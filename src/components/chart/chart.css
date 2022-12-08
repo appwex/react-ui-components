@@ -1,0 +1,165 @@
+.chart-container {
+  position: relative;
+  width: 703px;
+  height: 503px;
+  border-radius: 15px;
+  background-color: white;
+  border-radius: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-top {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.chart-top p {
+  color: #1c1c1e;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.chart-collapsed-icon {
+  cursor: pointer;
+}
+
+.chart-detail {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.chart-detail h1 {
+  color: #5856d6;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.chart-detail-sub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.chart-detail-sub p {
+  color: #34c759;
+}
+
+.chart-detail-sub p:nth-child(3) {
+  opacity: 0.2;
+}
+
+.chart-detail-sub p:last-child {
+  color: grey;
+}
+
+.chart-graph-container {
+  width: 90%;
+  height: 302px;
+  border: 1px solid black;
+  display: flex;
+  padding-top: 5%;
+  position: relative;
+}
+
+.graph-vertical {
+  width: 5%;
+  height: 100%;
+  position: relative;
+}
+
+.graph-vertical-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 38px;
+}
+
+.graph-vertical-list li {
+  font-size: 11px;
+  color: #8e8e93;
+}
+
+.chart-line-container {
+  position: absolute;
+  top: 36px;
+  width: 95%;
+  height: 82%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.chart-line-container hr {
+  border-top: 1.25231px dashed rgba(242, 242, 247, 0.5);
+  width: 90%;
+}
+
+.chart-body-container {
+  width: 95%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.chart-graph-body {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  padding-bottom: 5%;
+}
+
+.chart-graph-body p {
+  position: absolute;
+  bottom: 10%;
+  font-size: 12px;
+  color: #8e8e93;
+}
+
+.chart-graph-pair {
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+}
+
+.chart-body {
+  height: var(--h);
+  width: 20px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.body-1 {
+  background-color: #5856d6;
+}
+.body-2 {
+  background-color: #5856d6;
+  opacity: 0.42;
+}
