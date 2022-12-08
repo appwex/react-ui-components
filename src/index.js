@@ -14,6 +14,10 @@ import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
 import Payment from './routes/payment/payment'
+<<<<<<< HEAD
+=======
+import Cookie from './routes/cookie/cookie'
+>>>>>>> 6d187f6e887cc76d4c0e766e953828dadd0d6a16
 
 const router = createBrowserRouter([
   {
@@ -53,6 +57,13 @@ const router = createBrowserRouter([
         path: 'stories/payment',
         element: <Payment />,
       },
+<<<<<<< HEAD
+=======
+      {
+        path: 'stories/cookie',
+        element: <Cookie />,
+      },
+>>>>>>> 6d187f6e887cc76d4c0e766e953828dadd0d6a16
     ],
   },
 ])
