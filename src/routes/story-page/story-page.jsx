@@ -1,5 +1,5 @@
-import './story-page.css';
-import { Link } from 'react-router-dom';
+import './story-page.css'
+import { Link } from 'react-router-dom'
 
 const StoryPage = () => {
   return (
@@ -8,8 +8,11 @@ const StoryPage = () => {
       <Link to={`/`}>Back to home</Link>
       <Link to={`/stories/component`}>A-component</Link>
       <Link to={`/stories/button`}>Example Button</Link>
+      <Link to={`/stories/quicktransfer`}>Quick transfer component</Link>
+      <Link to={`/stories/notification`}>Notification Bar Component</Link>
+      <Link to={`/stories/payment`}> Payment </Link>
     </div>
-  );
-};
+  )
+}
 
-export default StoryPage;
+export default StoryPage
