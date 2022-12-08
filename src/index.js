@@ -13,8 +13,9 @@ import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
-import Payment from './routes/payment/payment'
+import Activites from './routes/recent-activite/recent-activite'
 import Cookie from './routes/cookie/cookie'
+import Payment from './routes/payment/payment'
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/cookie',
         element: <Cookie />,
+      },
+      {
+        path: 'stories/recent-activite',
+        element: <Activites />,
       },
     ],
   },

@@ -1,0 +1,56 @@
+.activite {
+  margin: 30px auto;
+  width: 342px;
+  box-shadow: 0 10px 30px #e5e5e5;
+  border-radius: 15px;
+  padding: 30px 20px 20px 20px;
+}
+.activiteHeader {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: #1c1c1e;
+}
+.activiteWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.activiteItem {
+  display: flex;
+  gap: 10px;
+}
+.activeImageWrapper {
+  width: 40px;
+  height: 40px;
+}
+.activitePhoto {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.activiteProfiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.activiteName {
+  font-size: 14px;
+  line-height: 16.94px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+.activiteDate {
+  font-size: 12px;
+  color: #aeaeb2;
+}
+.activiteSumm {
+  margin-left: auto;
+  font-size: 14px;
+}
+.green {
+  color: #34c759;
+}
+.red {
+  color: #ff3b30;
+}
