@@ -1,11 +1,11 @@
-import SidebarMenu from '../../components/sidebarmenu/sidebarmenu';
+import SidebarMenu from '../../components/sidebarmenu/sidebarmenu'
 
 const SidebarMenuComponent = () => {
   return (
     <>
-      <SidebarMenu />;
+      <SidebarMenu />
     </>
-  );
-};
+  )
+}
 
-export default SidebarMenuComponent;
+export default SidebarMenuComponent

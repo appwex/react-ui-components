@@ -13,7 +13,8 @@ import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
-import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu';
+import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
+import Payment from './routes/payment/payment'
 
 const router = createBrowserRouter([
   {
