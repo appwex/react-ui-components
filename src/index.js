@@ -13,6 +13,8 @@ import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
+import Payment from './routes/payment/payment'
+import Cookie from './routes/cookie/cookie'
 
 const router = createBrowserRouter([
   {
@@ -48,10 +50,14 @@ const router = createBrowserRouter([
         path: 'stories/notification',
         element: <NotificationStory />,
       },
-      // {
-      //   path: 'stories/payment',
-      //   element: <Payment />,
-      // },
+      {
+        path: 'stories/payment',
+        element: <Payment />,
+      },
+      {
+        path: 'stories/cookie',
+        element: <Cookie />,
+      },
     ],
   },
 ])
