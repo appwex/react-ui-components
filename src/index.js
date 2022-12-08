@@ -15,6 +15,7 @@ import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
 import Payment from './routes/payment/payment'
 import Cookie from './routes/cookie/cookie'
+import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/cookie',
         element: <Cookie />,
+      },
+      {
+        path: 'stories/sidebarmenu-component',
+        element: <SidebarMenuComponent />,
       },
     ],
   },

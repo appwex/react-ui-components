@@ -12,6 +12,7 @@ const StoryPage = () => {
       <Link to={`/stories/notification`}>Notification Bar Component</Link>
       <Link to={`/stories/payment`}> Payment </Link>
       <Link to={`/stories/cookie`}> Cookie </Link>
+      <Link to={`/stories/sidebarmenu-component`}>Sidebar Menu</Link>
     </div>
   )
 }
