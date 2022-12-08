@@ -1,3 +1,152 @@
 .header {
-  color: dodgerblue;
+  color: #8e8e93;
+  padding: 10px 0;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-start{
+  justify-content: flex-start;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.navbarContainer {
+  height: 54px;
+  max-width: 1290px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0 10px;
+  flex: 1;
+}
+
+.navbarBrand {
+  margin-right: 40px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.navbarItem {
+  flex-direction: column;
+  color: #b8b3b3;
+  flex-grow: 0;
+}
+
+.navbarItem a {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: -0.005em;
+  line-height: 17px;
+  font-weight: 400px;
+  font-size: 0.875rem;
+}
+
+.navbarItem span {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.navbarItem:hover .dot {
+  background-color: #5856d6;
+  margin-top: 7px;
+}
+
+.navbarItem:hover a {
+  margin-top: -7px;
+  color: #5856d6;
+}
+
+.navbarSearchForm {
+  width: 185px;
+  height: 35px;
+  padding: 0 5px;
+  position: relative;
+  border-radius: 8px;
+  background: rgba(242, 242, 247, 0.5);
+}
+
+.navbarUtil hr {
+  height: 30px;
+  border-color: rgba(242, 242, 247, 0.5);
+}
+
+.navbarSearchForm input {
+  height: 100%;
+  width: 85%;
+  padding: 5px;
+  position: relative;
+  background-color: transparent;
+}
+
+.navbarSearchForm input::placeholder {
+  font-size: 13px;
+  color: #d1d1d6;
+  font-family: inter;
+}
+
+.navbarSearchBtn {
+  width: 10%;
+  height: 80%;
+  margin: auto;
+}
+
+.navbarUtil {
+  margin-left: auto;
+}
+
+.navbarIconContainer {
+  position: relative;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  position: relative;
+  background: rgba(242, 242, 247, 0.5);
+  
+}
+
+.navbarIcon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarMessageNum {
+  height: 0px;
+  width: 0px;
+  background: #ff2d55;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  position: absolute;
+  right: -10px;
+  top: -3px;
+  padding: 8px;
+}
+
+.navbarNotification {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  background: #ff2d55;
+  padding: 3.5px;
+  border-radius: 50%;
+}
+
+.profile {
+  border-radius: 50%;
 }
