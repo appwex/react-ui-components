@@ -18,6 +18,7 @@ import Cookie from './routes/cookie/cookie'
 import Payment from './routes/payment/payment'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import ChartStory from './routes/chart-page'
+import Profile from './routes/profile/profile'
 
 const router = createBrowserRouter([
   {
@@ -65,12 +66,17 @@ const router = createBrowserRouter([
         path: 'stories/recent-activities',
         element: <Activities />,
       },
+      {
         path: 'stories/sidebarmenu-component',
         element: <SidebarMenuComponent />,
       },
       {
         path: 'stories/chart',
         element: <ChartStory />,
+      },
+      {
+        path: 'profile',
+        element: <Profile />,
       },
     ],
   },
