@@ -1,7 +1,7 @@
 import NotificationBar from './notificationBar'
 import './notifications.css'
-import { ReactComponent as SettingIcon } from '../../assets/svg/setting.svg'
-import { ReactComponent as CongratulationIcon } from '../../assets/svg/congratulation.svg'
+import { ReactComponent as SettingIcon } from 'assets/svg/setting.svg'
+import { ReactComponent as CongratulationIcon } from 'assets/svg/congratulation.svg'
 import { useState } from 'react'
 // expected input
 
