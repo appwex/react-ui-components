@@ -61,8 +61,7 @@ const router = createBrowserRouter([
         element: <Cookie />,
       },
       {
-<<<<<<< HEAD
-        path: 'stories/sidebarmenu-component',
+        path: 'stories/sidebarmenu',
         element: <SidebarMenuComponent />,
       },
       {
