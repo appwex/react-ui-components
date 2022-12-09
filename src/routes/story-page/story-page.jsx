@@ -11,6 +11,7 @@ const StoryPage = () => {
       <Link to={`/stories/quicktransfer`}>Quick transfer component</Link>
       <Link to={`/stories/notification`}>Notification Bar Component</Link>
       <Link to={`/stories/payment`}> Payment </Link>
+      <Link to={`/stories/cardpayment`}> Card Payment </Link>
       <Link to={`/stories/cookie`}> Cookie </Link>
     </div>
   )
