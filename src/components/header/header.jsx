@@ -1,17 +1,9 @@
 import './header.css'
-<<<<<<< HEAD
 import { ReactComponent as BrandLogo } from '../../assets/svg/brandLogo.svg'
 import { ReactComponent as ProfilePic } from '../../assets/svg/profilePic.svg'
 import { ReactComponent as Message } from '../../assets/svg/message.svg'
 import { ReactComponent as Notification } from '../../assets/svg/notification.svg'
 import { ReactComponent as SearchIcon } from '../../assets/svg/searchIcon.svg'
-=======
-import { ReactComponent as BrandLogo } from 'assets/svg/brandLogo.svg'
-import { ReactComponent as ProfilePic } from 'assets/svg/profilePic.svg'
-import { ReactComponent as Message } from 'assets/svg/message.svg'
-import { ReactComponent as Notification } from 'assets/svg/notification.svg'
-import { ReactComponent as SearchIcon } from 'assets/svg/searchIcon.svg'
->>>>>>> 31745018c77aec3d45b77900dd770a0e8bf01faf
 
 const Header = () => {
   const menu = ['Settings', 'Notification', 'Two Factor', 'Activity Status']

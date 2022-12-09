@@ -12,24 +12,14 @@ body {
   background-color: #E5E5E5;
 }
 
-<<<<<<< HEAD
 input{
-=======
-li {
-  list-style: none;
-}
-
-input {
->>>>>>> 31745018c77aec3d45b77900dd770a0e8bf01faf
   outline: none;
   border: none;
 }
 
-<<<<<<< HEAD
 a{
 =======
 a {
->>>>>>> 31745018c77aec3d45b77900dd770a0e8bf01faf
   text-decoration: none;
   color: inherit;
 }
