@@ -13,8 +13,9 @@ import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
-import Payment from './routes/payment/payment'
+import Activities from './routes/recent-activities/recent-activities'
 import Cookie from './routes/cookie/cookie'
+import Payment from './routes/payment/payment'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import ChartStory from './routes/chart-page'
 
@@ -61,6 +62,9 @@ const router = createBrowserRouter([
         element: <Cookie />,
       },
       {
+        path: 'stories/recent-activities',
+        element: <Activities />,
+      },
         path: 'stories/sidebarmenu-component',
         element: <SidebarMenuComponent />,
       },

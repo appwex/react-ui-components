@@ -12,6 +12,7 @@ const StoryPage = () => {
       <Link to={`/stories/notification`}>Notification Bar</Link>
       <Link to={`/stories/payment`}> Payment </Link>
       <Link to={`/stories/cookie`}> Cookie </Link>
+      <Link to={`/stories/recent-activities`}> Activities </Link>
       <Link to={`/stories/sidebarmenu-component`}>Sidebar Menu</Link>
       <Link to={`/stories/chart`}>Chart</Link>
     </div>
