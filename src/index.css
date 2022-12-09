@@ -9,14 +9,19 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
 }
 
-input{
+li {
+  list-style: none;
+}
+
+input {
   outline: none;
   border: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }

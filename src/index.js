@@ -16,6 +16,7 @@ import NotificationStory from './routes/notification-page/index'
 import Payment from './routes/payment/payment'
 import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
+import ChartStory from './routes/chart-page'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/sidebarmenu-component',
         element: <SidebarMenuComponent />,
+      },
+      {
+        path: 'stories/chart',
+        element: <ChartStory />,
       },
     ],
   },
