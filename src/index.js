@@ -13,12 +13,10 @@ import ComponentStory from './routes/story-page/componet'
 import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import NotificationStory from './routes/notification-page/index'
-import Activities from './routes/recent-activities/recent-activities'
-import Cookie from './routes/cookie/cookie'
 import Payment from './routes/payment/payment'
+import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
-import ChartStory from './routes/chart-page'
-import Profile from './routes/profile/profile'
+import CardPayment from './routes/card-payment/CardPayment'
 
 const router = createBrowserRouter([
   {
@@ -63,16 +61,12 @@ const router = createBrowserRouter([
         element: <Cookie />,
       },
       {
-        path: 'stories/recent-activities',
-        element: <Activities />,
-      },
-      {
-        path: 'stories/sidebarmenu-component',
+        path: 'stories/sidebarmenu',
         element: <SidebarMenuComponent />,
       },
       {
-        path: 'stories/chart',
-        element: <ChartStory />,
+        path: 'stories/cardpayment',
+        element: <CardPayment />,
       },
       {
         path: 'profile',

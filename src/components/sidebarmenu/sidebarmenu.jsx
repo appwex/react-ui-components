@@ -1,14 +1,14 @@
 import React from 'react'
 import './sidebarmenu.css'
-import mainLogo from '../../assets/svg/main-logo.svg'
-import dashboard from '../../assets/svg/dashboard.svg'
-import trade from '../../assets/svg/trade.svg'
-import market from '../../assets/svg/market.svg'
-import history from '../../assets/svg/history.svg'
-import activities from '../../assets/svg/activities.svg'
-import messages from '../../assets/svg/messages.svg'
-import support from '../../assets/svg/support.svg'
-import logout from '../../assets/svg/logout.svg'
+import mainLogo from 'assets/svg/main-logo.svg'
+import dashboard from 'assets/svg/dashboard.svg'
+import trade from 'assets/svg/trade.svg'
+import market from 'assets/svg/market.svg'
+import history from 'assets/svg/history.svg'
+import activities from 'assets/svg/activities.svg'
+import messages from 'assets/svg/messages.svg'
+import support from 'assets/svg/support.svg'
+import logout from 'assets/svg/logout.svg'
 
 function SidebarMenu() {
   return (
