@@ -12,11 +12,7 @@ body {
   background-color: #E5E5E5;
 }
 
-li {
-  list-style: none;
-}
-
-input {
+input{
   outline: none;
   border: none;
 }
