@@ -70,7 +70,7 @@ const router = createBrowserRouter([
         element: <CardPayment />,
       },
       {
-        path: 'profile',
+        path: 'stories/profile',
         element: <Profile />,
       },
     ],
