@@ -23,6 +23,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
 }
+
 .profile::after {
   content: '';
   top: 333px;
@@ -33,6 +34,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
 }
+
 .profileImgWrapper {
   margin: 12px;
   width: 205.36px;
@@ -43,21 +45,25 @@
   border-radius: 50%;
   z-index: 1;
 }
+
 .profileImg {
   transform: scale(1.1);
 }
+
 .profileMessage {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 5px;
 }
+
 .profileName {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 13px;
 }
+
 .profileBtn {
   color: #020125;
   background-color: #fff;
@@ -73,9 +79,11 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
+
 .profileBtn:active {
   transform: translateY(1.2px) scale(0.98);
 }
+
 .profileBtn > span {
   margin-left: 10px;
   display: inline-block;
