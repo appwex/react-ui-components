@@ -17,6 +17,7 @@ import Payment from './routes/payment/payment'
 import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from './routes/card-payment/CardPayment'
+import Profile from 'routes/profile/profile'
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/cardpayment',
         element: <CardPayment />,
+      },
+      {
+        path: 'stories/profile',
+        element: <Profile />,
       },
     ],
   },
