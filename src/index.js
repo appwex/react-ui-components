@@ -14,9 +14,11 @@ import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import AnotherProfile from './components/anotherProfile/anotherProfile'
 import NotificationStory from './routes/notification-page/index'
-import Activities from './routes/recent-activities/recent-activities'
-import Cookie from './routes/cookie/cookie'
 import Payment from './routes/payment/payment'
+import Cookie from './routes/cookie/cookie'
+import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
+import CardPayment from './routes/card-payment/CardPayment'
+import Profile from 'routes/profile/profile'
 
 const router = createBrowserRouter([
   {
@@ -65,8 +67,16 @@ const router = createBrowserRouter([
         element: <Cookie />,
       },
       {
-        path: 'stories/recent-activities',
-        element: <Activities />,
+        path: 'stories/sidebarmenu',
+        element: <SidebarMenuComponent />,
+      },
+      {
+        path: 'stories/cardpayment',
+        element: <CardPayment />,
+      },
+      {
+        path: 'stories/profile',
+        element: <Profile />,
       },
     ],
   },

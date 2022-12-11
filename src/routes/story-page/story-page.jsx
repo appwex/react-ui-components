@@ -8,12 +8,16 @@ const StoryPage = () => {
       <Link to={`/`}>Back to home</Link>
       <Link to={`/stories/component`}>A-component</Link>
       <Link to={`/stories/button`}>Example Button</Link>
-      <Link to={`/stories/quicktransfer`}>Quick transfer component</Link>
-      <Link to={`/stories/notification`}>Notification Bar Component</Link>
+      <Link to={`/stories/quicktransfer`}>Quick transfer</Link>
+      <Link to={`/stories/notification`}>Notification Bar</Link>
       <Link to={`/stories/payment`}> Payment </Link>
+      <Link to={`/stories/cardpayment`}> Card Payment </Link>
       <Link to={`/stories/cookie`}> Cookie </Link>
-      <Link to={`/stories/recent-activities`}> Activities </Link>
       <Link to={`/stories/anotherProfile`}> AnotherProfile </Link>
+      <Link to={`/stories/sidebarmenu`}>Sidebar Menu</Link>
+      <Link to={`/stories/chart`}>Chart</Link>
+      <Link to={`/stories/recent-activity`}> Activities </Link>
+      <Link to={`/stories/profile`}>Profile</Link>
     </div>
   )
 }

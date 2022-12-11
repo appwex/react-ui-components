@@ -1,0 +1,94 @@
+.main-container{
+    font-family: 'Inter';
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #EBEDF1;
+}
+
+.sidebar-container{
+    width: 17.1875rem;
+    /* height: 36rem; */
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.sidebar-logo{
+    padding: 1.875rem 0 0 1.25rem;
+}
+
+.main-routes{
+    padding-top: 4.125rem;
+}
+
+.common-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 12px;
+    padding: .6875rem 0 .6875rem 1.125rem;
+}
+
+.active{
+    border-left: 2px solid #5856D6;
+}
+
+.common-container:hover{
+    cursor: pointer;
+    background-color: #EBEDF1;
+}
+
+.active-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #5856D6;
+}
+
+.inactive-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #3A3A3C;
+}
+
+.for-you{
+    margin-top: 2.75rem;
+    margin-bottom: 1.875rem;
+}
+
+.section-header-text{
+    font-size: 14px;
+    padding-left: 1.125rem;
+    font-weight: 400;
+    color: #8E8E93;
+}
+
+.message-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-container:hover{
+    cursor: pointer;
+    background-color: #EBEDF1;
+}
+
+.message-update{
+    margin-right: 1.25rem;
+    background-color: #30DB5B;
+    border-radius: 6.25rem;
+    color: white;
+}
+
+.message-update > p{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 6px;
+    color: #ffffff;
+}
+
+.logout-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FF3B30;
+}
