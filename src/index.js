@@ -18,6 +18,7 @@ import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from './routes/card-payment/CardPayment'
 import CodeWriter from './routes/mock-code-writer/code-writer'
+import Profile from './routes/profile/profile'
 
 const router = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/codewriter',
         element: <CodeWriter />,
+      },
+      {
+        path: 'stories/profile',
+        element: <Profile />,
       },
     ],
   },
