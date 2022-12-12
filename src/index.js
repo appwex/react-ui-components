@@ -21,6 +21,7 @@ import CardPayment from './routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from './routes/mock-code-writer/code-writer'
+import Graph from './routes/graph-component/graph'
 
 const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/coinvalue',
         element: <CoinValue />,
+      },
+      {
+        path: 'stories/graph-component',
+        element: <Graph />,
       },
     ],
   },
