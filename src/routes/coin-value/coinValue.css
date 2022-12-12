@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+  --primary-background: #ffffff;
+  --primary-black-text: #230b34;
+  --primary-dark-grey: #3f3f3f;
+  --primary-grey-text: #626262;
+  --primary-green: #21d91d;
+  --primary-border-radius: 40px;
+}
+.dark {
+  --secondary-background: #100d1f;
+  --secondary-white: #ffffff;
+  --secondary-dark-grey: #4f4f4f;
+  --secondary-grey-text: #bdbdbd;
+  --secondary-border-radius: none;
+}
+.coins-container {
+  max-width: 450px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0 30px;
+  border-radius: var(--primary-border-radius);
+  align-items: space-between;
+  background: var(--primary-background);
+}
+
+.dark .coins-container {
+  background: var(--secondary-background);
+  border-radius: var(--secondary-border-radius);
+}
+
+.coins-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.coin-name {
+  color: var(--primary-black-text);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Mulish';
+  color: var(--secondary-white);
+}
+
+.coin-card {
+  display: flex;
+  align-items: center;
+}
+
+
+.price {
+  margin-left: auto;
+}
+
+.current-price {
+  color:var(--primary-dark-grey);
+  font-family: 'Mulish';
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--secondary-grey-text);
+}
+
+.coin-abb {
+  font-family: 'Mulish';
+  color: var(--primary-grey-text);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-dark-grey);
+}
+
+.interest {
+  font-family: 'Mulish';
+  text-align: right;
+  color: var(--primary-green);
+  font-size: 14px;
+  font-weight: 700;
+}
