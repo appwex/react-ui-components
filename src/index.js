@@ -19,6 +19,7 @@ import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from './routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
+import AddImformation from 'routes/add-information/add-information'
 
 const router = createBrowserRouter([
   {
@@ -77,6 +78,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/profile',
         element: <Profile />,
+      },
+      {
+        path: 'stories/add-information',
+        element: <AddImformation />,
       },
     ],
   },
