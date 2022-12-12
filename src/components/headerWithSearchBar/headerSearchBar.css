@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:wght@300;400;700&display=swap');
+.headerSearch-box {
+    display: flex;
+    align-items: center;
+}
+
+.headerSearch {
+    display: flex;
+    justify-content: space-between;
+    background: #100D1F;
+    min-width: 50rem;
+    margin: auto;
+    padding: .7rem 2rem;
+    align-items: center;
+    border-radius: 10rem;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputContainer>img {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+input[type="text"] {
+    background: #160F34;
+    padding: .9rem .5rem;
+    border-radius: 10rem;
+    width: 16rem;
+}
+
+.headerNotification {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 3rem;
+}
+
+
+/* .headerNotification>img {
+    border-radius: 100%;
+    padding: .3rem .5rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    align-self: center;
+} */
+
+.notify {
+    position: relative;
+    border-radius: 100%;
+    padding: .3rem .5rem;
+    /* margin: .1rem 0; */
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    align-self: center;
+}
+
+.notify>span {
+    position: absolute;
+    background: #270BD6;
+    top: -8px;
+    color: white;
+    font-size: 10px;
+    border-radius: 100px;
+    padding: 3px 4px;
+}
+
+.headerProfile>img:first-child {
+    background: #FF60D2;
+    border-radius: 100%;
+    padding: 1px;
+}
+
+.headerProfile {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerProfile>p {
+    color: white;
+    font-size: 15px;
+}
