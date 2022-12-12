@@ -22,7 +22,6 @@ import Profile from 'routes/profile/profile'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from './routes/mock-code-writer/code-writer'
 
-
 const router = createBrowserRouter([
   {
     path: '/',
