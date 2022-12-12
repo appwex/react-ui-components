@@ -36,7 +36,7 @@ const CoinValue = () => {
   }
   //class of dark toggle the dark mode
   return (
-    <section className="dark">
+    <section className="">
       <div className="coins-container">
         <Card />
       </div>

@@ -7,6 +7,7 @@
   --primary-green: #21d91d;
   --primary-border-radius: 40px;
 }
+
 .dark {
   --secondary-background: #100d1f;
   --secondary-white: #ffffff;
@@ -14,6 +15,7 @@
   --secondary-grey-text: #bdbdbd;
   --secondary-border-radius: none;
 }
+
 .coins-container {
   max-width: 450px;
   height: 400px;
@@ -53,13 +55,12 @@
   align-items: center;
 }
 
-
 .price {
   margin-left: auto;
 }
 
 .current-price {
-  color:var(--primary-dark-grey);
+  color: var(--primary-dark-grey);
   font-family: 'Mulish';
   font-size: 20px;
   font-weight: 600;
