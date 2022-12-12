@@ -13,6 +13,7 @@ const StoryPage = () => {
       <Link to={`/stories/payment`}> Payment </Link>
       <Link to={`/stories/cardpayment`}> Card Payment </Link>
       <Link to={`/stories/cookie`}> Cookie </Link>
+      <Link to={`/stories/anotherProfile`}> AnotherProfile </Link>
       <Link to={`/stories/sidebarmenu`}>Sidebar Menu</Link>
       <Link to={`/stories/chart`}>Chart</Link>
       <Link to={`/stories/recent-activity`}> Activities </Link>
