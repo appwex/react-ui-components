@@ -2,6 +2,7 @@
   font-family: 'Inter';
   font-style: normal;
 }
+
 p,
 span,
 .btn {
@@ -16,15 +17,18 @@ span,
   padding: 60px 54px;
   border-radius: 15px;
 }
+
 .referralCodeWrapper {
   margin-bottom: 53px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .referralCodeBarre {
   width: 165px;
 }
+
 .referralNum {
   font-weight: 500;
   font-size: 13.9157px;
@@ -32,33 +36,39 @@ span,
   margin-top: -3px;
   transform: translateX(6px);
 }
+
 .referralPersonal {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 16px;
 }
+
 .referralBar {
   height: 1px;
   width: 100%;
   background-color: #7d7aff;
   margin: 4px auto;
 }
+
 .referralPersonalText {
   font-weight: 300;
   font-size: 15px;
   margin-bottom: 8px;
 }
+
 .referralPersonalNum {
   font-weight: 600;
   font-size: 26px;
   letter-spacing: 0.2em;
 }
+
 .referralBtnWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .btn {
   background-color: transparent;
   padding: 0;
@@ -66,9 +76,11 @@ span,
   font-size: 10px;
   transition: all 0.3 ease-in-out;
 }
+
 .btn:hover {
   font-weight: 600;
 }
+
 .btn:active {
   transform: scale(0.9);
 }
