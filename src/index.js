@@ -19,6 +19,7 @@ import Cookie from './routes/cookie/cookie'
 import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from './routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
+import AddImformation from 'routes/add-information/add-information'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from './routes/mock-code-writer/code-writer'
 
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
+        path: 'stories/add-information',
+        element: <AddImformation />,
+       },
+       {
         path: 'stories/coinvalue',
         element: <CoinValue />,
       },
