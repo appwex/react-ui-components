@@ -23,7 +23,8 @@ import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from './routes/mock-code-writer/code-writer'
-
+import ChartStory from 'routes/chart-page'
+import Activities from 'routes/recent-activities/recent-activities'
 
 const router = createBrowserRouter([
   {
@@ -94,10 +95,18 @@ const router = createBrowserRouter([
       {
         path: 'stories/referral',
         element: <Referral />,
-       },
-       {
+      },
+      {
         path: 'stories/coinvalue',
         element: <CoinValue />,
+      },
+      {
+        path: 'stories/chart',
+        element: <ChartStory />,
+      },
+      {
+        path: 'stories/recent-activity',
+        element: <Activities />,
       },
     ],
   },
