@@ -22,7 +22,6 @@ const StoryPage = () => {
       <Link to={`/stories/add-information`}>Add Imformation</Link>
       <Link to={`/stories/referral`}>Referral</Link>
       <Link to={`/stories/coinvalue`}>Coin Value</Link>
-
     </div>
   )
 }
