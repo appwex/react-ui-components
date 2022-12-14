@@ -48,7 +48,7 @@ const Header = () => {
           </div>
           <div className="navbarIconContainer  d-flex justify-content-center align-items-center">
             <a href="ss">
-              <ProfilePic className="profile d-flex justify-content-center align-items-center" />
+              <ProfilePic className="headerProfile d-flex justify-content-center align-items-center" />
             </a>
           </div>
         </div>
