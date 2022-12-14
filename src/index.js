@@ -23,7 +23,6 @@ import Profile from 'routes/profile/profile'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
 import CoinValue from 'routes/coin-value/coinValue'
-import CodeWriter from './routes/mock-code-writer/code-writer'
 import Graph from './routes/graph-component/graph'
 
 const router = createBrowserRouter([
