@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './headerSearchBar.css'
 
-import { ReactComponent as Arrow } from '../headerWithSearchBar/arrow.svg'
-import { ReactComponent as Notification } from '../headerWithSearchBar/Notification.svg'
-import Profile from '../headerWithSearchBar/prof.png'
-import { ReactComponent as Search } from '../headerWithSearchBar/search.svg'
+import { ReactComponent as Arrow } from './arrow.svg'
+import { ReactComponent as Notification } from './Notification.svg'
+import Profile from './prof.png'
+import { ReactComponent as Search } from './search.svg'
 
 const HeaderSearchBar = () => {
   const [darkMode, setdarkMode] = useState(false)
