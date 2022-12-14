@@ -60,3 +60,29 @@ select {
   vertical-align: middle;
   background: transparent;
 }
+
+.graph {
+  display: grid;
+  place-items: center;
+  margin-top: 2.125rem;
+  margin-bottom: 2.875rem;
+}
+
+.tooltip-container {
+  border: none;
+  outline: none;
+  width: 6.25rem;
+  border-radius: 0.625rem;
+  background-color: #3f3f3f;
+}
+
+.tooltip-container > p {
+  padding: 1.125rem;
+  color: white;
+  text-align: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
