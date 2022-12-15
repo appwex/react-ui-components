@@ -44,7 +44,7 @@ export const Buttons = () => {
           btnClass={'button-text'}
           isLoading={'is-loading'}
           label={'Text'}
-          isDisabled={'disabled'}
+          isDisabled={''}
         />
       </div>
     </div>
