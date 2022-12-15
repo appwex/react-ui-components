@@ -10,7 +10,6 @@ import StoryPage from './routes/story-page/story-page'
 import Homepage from './routes/homepage/homepage'
 import TestPage from './routes/test-page.jsx/test-page'
 import ComponentStory from './routes/story-page/componet'
-import ButtonStory from './routes/story-page/button'
 import QuickTransfer from './components/quickTransfer/QuickTransfer'
 import AnotherProfile from './components/anotherProfile/anotherProfile'
 import NotificationStory from './routes/notification-page/index'
@@ -21,10 +20,9 @@ import CardPayment from './routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from './routes/mock-code-writer/code-writer'
-import Profile from 'routes/profile/profile'
+import { Buttons } from 'routes/buttons/buttons'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
-import CoinValue from 'routes/coin-value/coinValue'
 
 const router = createBrowserRouter([
   {
@@ -47,10 +45,6 @@ const router = createBrowserRouter([
       {
         path: 'stories/component',
         element: <ComponentStory />,
-      },
-      {
-        path: 'stories/button',
-        element: <ButtonStory />,
       },
       {
         path: 'stories/quicktransfer',
@@ -91,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/coinvalue',
         element: <CoinValue />,
+      },
+      {
+        path: 'stories/buttons',
+        element: <Buttons />,
       },
     ],
   },
