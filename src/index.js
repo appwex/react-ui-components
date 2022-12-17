@@ -23,6 +23,8 @@ import CodeWriter from './routes/mock-code-writer/code-writer'
 import { Buttons } from 'routes/buttons/buttons'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
+import ChartStory from 'routes/chart-page'
+import Activities from 'routes/recent-activities/recent-activities'
 
 const router = createBrowserRouter([
   {
@@ -83,8 +85,24 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
+        path: 'stories/add-information',
+        element: <AddImformation />,
+      },
+      {
+        path: 'stories/referral',
+        element: <Referral />,
+      },
+      {
         path: 'stories/coinvalue',
         element: <CoinValue />,
+      },
+      {
+        path: 'stories/chart',
+        element: <ChartStory />,
+      },
+      {
+        path: 'stories/recent-activity',
+        element: <Activities />,
       },
       {
         path: 'stories/buttons',
