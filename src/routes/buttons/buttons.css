@@ -44,7 +44,12 @@
   display: none;
 }
 
-
+.is-loading .loading-img {
+  display: block;
+  animation: rotate 1s infinite linear;
+  stroke: #3D24D3;
+  width: 14px;
+}
 
 @keyframes rotate {
   from {
@@ -55,7 +60,7 @@
   }
 }
 
-
+/*Primary buttons*/
 .button-primary {
   background-color: #270bd6;
   color: white;
@@ -84,7 +89,7 @@
 
 .is-loading .button-primary .loading-img {
   display: block;
-  animation: rotate 2s infinite linear;
+  
   stroke:white
 }
 
@@ -118,11 +123,7 @@
 
 }
 
-.is-loading .loading-img {
-  display: block;
-  animation: rotate 2s infinite linear;
-  stroke:#3D24D3
-}
+
 
 /* subtle button */
 .button-subtle{
@@ -151,16 +152,14 @@
 }
 
 .is-loading .button-subtle  .loading-img {
-  display: block;
-  animation: rotate 2s infinite linear;
-  stroke:#3D24D3
+  display: block;  
 }
 
 /* text button */
 .button-text{
   border: none;
   background-color: transparent;
-  padding: 10px;
+  padding: 8px 15px;
 }
 
 .button-text .text {
@@ -190,7 +189,7 @@
 }
 
 .is-loading .button-text .loading-text{
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   font-weight: 600;
   color: #3D24D3;
