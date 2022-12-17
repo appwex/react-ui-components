@@ -20,6 +20,7 @@ import SidebarMenuComponent from './routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from './routes/card-payment/CardPayment'
 import CodeWriter from './routes/mock-code-writer/code-writer'
 import Profile from 'routes/profile/profile'
+import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
 import CoinValue from 'routes/coin-value/coinValue'
@@ -87,6 +88,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/profile',
         element: <Profile />,
+      },
+      {
+        path: 'stories/headersearchbar',
+        element: <HeaderSearchBar />,
       },
       {
         path: 'stories/add-information',
