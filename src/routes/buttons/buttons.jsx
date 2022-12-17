@@ -1,5 +1,5 @@
 import './buttons.css'
-import { ReactComponent as Loading } from '../../assets/svg/btn-loading.svg'
+import { ReactComponent as Loading } from 'assets/svg/btn-loading.svg'
 
 export const Buttons = () => {
   //isLoading = is-loading to activate loading button
