@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:wght@300;400;700&display=swap');
+* {
+    font-family: 'Mulish';
+}
+
+.headerSearch-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.darkheader {
+    display: flex;
+    justify-content: space-between;
+    min-width: 50rem;
+    margin: auto;
+    padding: .7rem 2rem;
+    align-items: center;
+    border-radius: 10rem;
+}
+
+.darkBg {
+    background: #200E32;
+    color: white;
+}
+
+.whiteBg {
+    background-color: white;
+}
+
+.darkheader input[type="text"] {
+    background: #160F34;
+    padding: .9rem .5rem;
+    border-radius: 10rem;
+    width: 16rem;
+}
+
+.headerSearch {
+    display: flex;
+    justify-content: space-between;
+    min-width: 50rem;
+    margin: auto;
+    padding: .7rem 2rem;
+    align-items: center;
+    border-radius: 10rem;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.headerSearch input[type="text"] {
+    background: #F6F4FF;
+    /* background: #160F34; */
+    padding: .9rem .5rem;
+    border-radius: 10rem;
+    width: 16rem;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 10px;
+}
+
+.headerNotification {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 3rem;
+}
+
+.notify {
+    position: relative;
+    border-radius: 100%;
+    padding: .3rem .5rem;
+    /* margin: .1rem 0; */
+    border-color: #DADADA;
+    border-style: solid;
+    border-width: 1px;
+    align-self: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.notify>span {
+    position: absolute;
+    background: #270BD6;
+    top: -8px;
+    color: white;
+    font-size: 10px;
+    border-radius: 100px;
+    padding: 3px 4px;
+}
+
+.headerProfile>img:first-child {
+    background: #FF60D2;
+    border-radius: 100%;
+    padding: 1px;
+}
+
+.headerProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.white {
+    color: #fff;
+}
+
+.dark {
+    color: #000;
+}
+
+.fills path {
+    stroke: #200E32;
+}
+
+.dkFills path {
+    stroke: #DADADA;
+}
+
+.darkModes {
+    border: 1px solid #9b9b9b;
+    width: 70px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.darkModes span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    transition: all 0.3s;
+}
+
+.slides {
+    left: 38px !important;
+    background-color: #010925 !important;
+}
