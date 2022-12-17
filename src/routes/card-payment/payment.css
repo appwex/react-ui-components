@@ -1,164 +1,164 @@
 .dFlex {
-  display: flex;
+    display: flex;
 }
 
 .flexColumn {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .w-100 {
-  width: 100%;
+    width: 100%;
 }
 
 .w-50 {
-  width: 40%;
+    width: 40%;
 }
 
 .gap {
-  gap: 2rem;
+    gap: 2rem;
 }
 
 .justifyContentBetween {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .darkBg {
-  background-color: #100d1f;
-  color: white;
+    background-color: #100d1f;
+    color: white;
 }
 
 .whiteBg {
-  background-color: white;
+    background-color: white;
 }
 
 .cardPayment {
-  width: 450px;
-  height: 550px;
-  margin: 0 30px;
-  padding: 30px;
-  border-radius: 25px;
-  justify-content: center;
-  transition: all 0.5s;
-  box-shadow: 0px 4px 15px rgba(41, 41, 42, 0.25);
+    width: 450px;
+    height: 550px;
+    margin: 0 30px;
+    padding: 30px;
+    border-radius: 25px;
+    justify-content: center;
+    transition: all 0.5s;
+    box-shadow: 0px 4px 15px rgba(41, 41, 42, 0.25);
 }
 
 .cardPayment input,
 .actionBtn {
-  padding: 20px 15px;
-  font-size: 1.05rem;
-  font-weight: 800;
+    padding: 20px 15px;
+    font-size: 1.05rem;
+    font-weight: 800;
 }
 
 .cardPayment input,
 .actionBtn {
-  border: 2px solid #9b9eaa;
-  border-radius: 10px;
-  margin-top: 0.55rem;
-  background-color: transparent;
+    border: 2px solid #9b9eaa;
+    border-radius: 10px;
+    margin-top: 0.55rem;
+    background-color: transparent;
 }
 
 .cardPayment input::placeholder {
-  font-weight: 800;
-  line-height: 23px;
-  letter-spacing: 0.14rem;
-  font-size: 1.15rem;
-  color: #000;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0.14rem;
+    font-size: 1.15rem;
+    color: #000;
 }
 
 .darkCardPayment input::placeholder {
-  color: #010925;
+    color: #010925;
 }
 
 .darkCardPayment input {
-  color: #9b9b9b;
+    color: #9b9b9b;
 }
 
 .cardPayment label {
-  color: #9b9eaa;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  transform: none;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 0.75rem;
-  line-height: 20px;
-  margin-left: 0.25rem;
-  letter-spacing: 0.15rem;
+    color: #9b9eaa;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.75rem;
+    line-height: 20px;
+    margin-left: 0.25rem;
+    letter-spacing: 0.15rem;
 }
 
 .cardPayment input:focus {
-  border: 2px solid #270bd6;
+    border: 2px solid #270bd6;
 }
 
 .action {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .actionBtn {
-  border: none;
+    border: none;
 }
 
 .cancel {
-  color: #270bd6;
-  font-weight: 800s;
-  width: 30%;
-  text-align: center;
-  font-weight: 600;
+    color: #270bd6;
+    font-weight: 800s;
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
 }
 
 .pay {
-  width: 55%;
-  margin-left: auto;
-  align-items: center;
-  background-color: #270bd6;
-  font-weight: 500;
-  color: white;
+    width: 55%;
+    margin-left: auto;
+    align-items: center;
+    background-color: #270bd6;
+    font-weight: 500;
+    color: white;
 }
 
 .cardNumber {
-  position: relative;
+    position: relative;
 }
 
 .cardNumber input {
-  padding-right: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 .icon {
-  position: absolute;
-  top: 20px;
-  right: 15px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
 }
 
 .cardPaymentHeader {
-  font-weight: 800;
-  line-height: 2.1875rem;
-  font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 2.1875rem;
+    font-size: 1.75rem;
 }
 
 .darkMode {
-  border: 1px solid #9b9b9b;
-  width: 70px;
-  height: 30px;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 20px;
-  position: relative;
-  transition: all 0.3s;
+    border: 1px solid #9b9b9b;
+    width: 70px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s;
 }
 
 .darkMode span {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  position: absolute;
-  left: 0px;
-  transition: all 0.3s;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    transition: all 0.3s;
 }
 
 .slide {
-  left: 38px !important;
-  background-color: #010925 !important;
+    left: 38px !important;
+    background-color: #010925 !important;
 }

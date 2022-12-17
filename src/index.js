@@ -21,6 +21,7 @@ import Profile from 'routes/profile/profile'
 import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from 'routes/mock-code-writer/code-writer'
 import { Buttons } from 'routes/buttons/buttons'
+import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
 import ChartStory from 'routes/chart-page'
@@ -83,6 +84,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/profile',
         element: <Profile />,
+      },
+      {
+        path: 'stories/headersearchbar',
+        element: <HeaderSearchBar />,
       },
       {
         path: 'stories/add-information',
