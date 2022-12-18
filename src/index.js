@@ -29,6 +29,7 @@ import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
