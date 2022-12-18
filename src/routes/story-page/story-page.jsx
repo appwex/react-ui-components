@@ -19,10 +19,12 @@ const StoryPage = () => {
       <Link to={`/stories/chart`}>Chart</Link>
       <Link to={`/stories/recent-activity`}> Activities </Link>
       <Link to={`/stories/profile`}>Profile</Link>
+      <Link to={`/stories/headersearchbar`}>HeaderSearchBar</Link>
       <Link to={`/stories/add-information`}>Add Imformation</Link>
       <Link to={`/stories/referral`}>Referral</Link>
       <Link to={`/stories/coinvalue`}>Coin Value</Link>
       <Link to={`/stories/graph-component`}>Graph Card</Link>
+      <Link to={'/stories/buttons'}>buttons</Link>
     </div>
   )
 }

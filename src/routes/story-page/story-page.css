@@ -5,3 +5,12 @@
   padding: 1rem 1.5rem;
   gap: 10px;
 }
+
+.story a {
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+.story a:hover {
+  transform: scale(1.2);
+}

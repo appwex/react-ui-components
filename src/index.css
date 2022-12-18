@@ -9,10 +9,10 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-input{
+input {
   outline: none;
   border: none;
 }

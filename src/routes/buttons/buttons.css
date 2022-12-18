@@ -1,0 +1,196 @@
+.btn-container {
+  padding: 20px;
+  margin: 0 auto;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  background-color: #e2f1ff;
+}
+
+.btn-container p {
+  color: #3f3f3f;
+  margin-bottom: 10px;
+}
+
+.button {
+  border: 2px solid #270bd6;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+}
+
+.button:active .active-btn {
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 40px;
+  border-radius: 50%;
+  right: 20px;
+  top: 0;
+}
+
+.loading-text {
+  display: none;
+}
+
+/*button Loading state */
+.loading-img {
+  display: none;
+}
+
+.is-loading .loading-img {
+  display: block;
+  animation: rotate 1s infinite linear;
+  stroke: #3D24D3;
+  width: 14px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Primary buttons*/
+.button-primary {
+  background-color: #270bd6;
+  color: white;
+}
+
+.button-primary:hover {
+  border: 2px solid #1d0c87;
+  background-color: #1d0c87;
+}
+
+.button-primary:focus {
+  border: 2px solid #3d24d3;
+  background-color: #3d24d3;
+}
+
+.button-primary:disabled {
+  background-color: #e0eaff;
+  border-radius: 20px;
+  border-color: #e0eaff;
+  opacity: 0.5;
+}
+
+.is-loading .text {
+  display: none;
+}
+
+.is-loading .button-primary .loading-img {
+  display: block;
+  
+  stroke:white
+}
+
+/* secondary button */
+.button-secondary {
+  background-color: transparent;
+}
+.button-secondary  .text {
+  color: #270bd6;
+}
+
+.button-secondary:hover {
+  border: 2px solid #1d0c87;
+}
+
+.button-secondary:hover .text {
+  color: #1d0c87;
+}
+
+.button-secondary:focus {
+  outline: 5px solid #fafeff;
+}
+
+.button-secondary:disabled {
+  border:  2px solid #10368A;
+  opacity: 0.5;
+}
+
+.button-secondary .button:disabled .text{
+ color: #10368A;
+
+}
+
+
+
+/* subtle button */
+.button-subtle{
+  border-color: #cfd2e4;
+  background-color: transparent;
+}
+.button-subtle .text {
+  color: #270bd6;
+}
+
+.button-subtle:hover .text{
+ color: #1D0C87;
+}
+
+.button-subtle:focus {
+   outline: 5px solid #fafeff;
+}
+
+.button-subtle:disabled{
+ border: 2px solid #CFD2E4;
+ opacity: 0.5;
+}
+
+.button-subtle:disabled .text {
+ color: #10368A;
+}
+
+.is-loading .button-subtle  .loading-img {
+  display: block;  
+}
+
+/* text button */
+.button-text{
+  border: none;
+  background-color: transparent;
+  padding: 8px 15px;
+}
+
+.button-text .text {
+  color: #270bd6;
+}
+
+.button-text:disabled {
+ opacity: 0.5;
+}
+
+.button-text:hover .text{
+  color: #1D0C87;
+}
+
+.button-text:focus{
+  background-color: #F9FAFF;
+  color: #3D24D3;
+  border-radius: 20px;
+}
+
+.button-text:disabled .text {
+ color: #10368A;;
+}
+
+.is-loading .button-text .loading-img{
+  display: none;
+}
+
+.is-loading .button-text .loading-text{
+  font-size: 14px;
+  display: block;
+  font-weight: 600;
+  color: #3D24D3;
+}
