@@ -24,6 +24,8 @@ import { Buttons } from 'routes/buttons/buttons'
 import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
+import CoinValue from 'routes/coin-value/coinValue'
+import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
 
@@ -84,6 +86,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/profile',
         element: <Profile />,
+      },
+      {
+        path: 'stories/graph-component',
+        element: <Graph />,
       },
       {
         path: 'stories/headersearchbar',
