@@ -7,7 +7,6 @@ const StoryPage = () => {
       <h1>Stories of components</h1>
       <Link to={`/`}>Back to home</Link>
       <Link to={`/stories/component`}>A-component</Link>
-      <Link to={`/stories/button`}>Example Button</Link>
       <Link to={`/stories/quicktransfer`}>Quick transfer</Link>
       <Link to={`/stories/notification`}>Notification Bar</Link>
       <Link to={`/stories/payment`}> Payment </Link>
