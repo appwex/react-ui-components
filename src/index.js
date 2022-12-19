@@ -18,7 +18,6 @@ import Cookie from 'routes/cookie/cookie'
 import SidebarMenuComponent from 'routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from 'routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
-import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from 'routes/mock-code-writer/code-writer'
 import { Buttons } from 'routes/buttons/buttons'
 import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
@@ -28,7 +27,6 @@ import CoinValue from 'routes/coin-value/coinValue'
 import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
-
 
 const router = createBrowserRouter([
   {
