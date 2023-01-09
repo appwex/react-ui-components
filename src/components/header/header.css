@@ -3,19 +3,19 @@
   padding: 10px 0;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.justify-content-center{
+.justify-content-center {
   justify-content: center;
 }
 
-.justify-content-start{
+.justify-content-start {
   justify-content: flex-start;
 }
 
-.align-items-center{
+.align-items-center {
   align-items: center;
 }
 
@@ -26,6 +26,11 @@
   border-radius: 10px;
   padding: 0 10px;
   flex: 1;
+  transition: background-color 0.2s ease-in;
+}
+
+.toggleDark {
+  background-color: #161622f3;
 }
 
 .navbarBrand {
@@ -78,6 +83,14 @@
   background: rgba(242, 242, 247, 0.5);
 }
 
+.darkSearch {
+  background-color: rgba(22, 22, 34, 0.979);
+}
+
+.darkSearch input {
+  color: #fff;
+}
+
 .navbarUtil hr {
   height: 30px;
   border-color: rgba(242, 242, 247, 0.5);
@@ -113,8 +126,6 @@
   height: 1.875rem;
   border-radius: 50%;
   position: relative;
-  background: rgba(242, 242, 247, 0.5);
-  
 }
 
 .navbarIcon {

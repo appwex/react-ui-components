@@ -58,7 +58,7 @@ import "./App.css"                                            // stylesheet
 ##### Standard Code
 
 - Do not leave `console.log` on prod / master, keep it on other personal branch if important.
-- We use [`prettier`](https://prettier.io/) for code styles.
+- We use [`prettier`](https:// prettier.io/) for code styles.
 
 ##### Merge
 
