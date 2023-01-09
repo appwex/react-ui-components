@@ -1,0 +1,112 @@
+body {
+  overflow-x: hidden;
+}
+
+.nftDashBoardContainer {
+  height: 100vh;
+  background-color: #fff;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem 2rem;
+  margin-left: 5rem;
+}
+
+.nftDashboardHeader {
+  margin-bottom: 5rem;
+}
+
+.nftDashboardHeader svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.nftDashboardHeader p {
+  color: #1e1e2d;
+  font-size: 1.25rem;
+  margin-left: 0.2rem;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.nftDashboardMenuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nftDashboardText p,
+.nftDashboardMenu p {
+  color: #1e1e2d;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-left: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: -0.02rem;
+  cursor: pointer;
+}
+
+.nftDashboardMenu p {
+  font-size: 1rem;
+  color: rgba(111, 113, 129, 1);
+}
+
+.nftDashboardMenu svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.nftDashBoardContainer hr {
+  margin: 3rem 0;
+  border-color: #f2f2f2;
+}
+
+.nftDashboardLogout {
+  margin-top: auto;
+}
+.nftDashboardLogout p {
+  color: rgb(251, 107, 99);
+}
+
+.toggleModeButton {
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(rgba(224, 211, 211, 0.416), rgba(0, 0, 0, 0.219));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.toggleModeButton span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: white;
+  transition: all 1s ease;
+}
+
+.nftDarkMode span,
+.nftDashBoardContainer.nftDarkMode {
+  background: #161622;
+}
+
+.nftDashBoardContainer.nftDarkMode hr {
+  border-color: rgba(111, 113, 129, 1);
+}
+
+.nftDarkMode .nftDashboardHeader p,
+.nftDarkMode .nftDashboardText p,
+.nftDarkMode .nftDashboardHeader svg rect,
+.nftDarkMode .nftDashboardText svg path {
+  color: #fff;
+  fill: #fff;
+}
+
+.nftDarkMode {
+  transition: all 1s ease-in;
+}
