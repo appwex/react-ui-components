@@ -35,6 +35,7 @@ const NFTSidebar = () => {
     {
       menu: 'History',
       icon: <History />,
+      notifification: 8,
     },
     {
       menu: 'Wallet',
@@ -75,6 +76,17 @@ const NFTSidebar = () => {
             <div className="flex nftDashboardMenu" key={index}>
               {item.icon}
               <p>{item.menu}</p>
+              {item.notifification ? (
+                <span
+                  className={`nftDashboardNotification  ${
+                    darkMode ? 'nftDarkMode' : ''
+                  }`}
+                >
+                  {item.notifification}
+                </span>
+              ) : (
+                ''
+              )}
             </div>
           ))}
         </div>
