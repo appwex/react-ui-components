@@ -26,6 +26,8 @@ import Referral from 'routes/referral/referral'
 import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
+import CoinValue from 'routes/coin-value/coinValue'
+import NFTSidebarComponent from 'routes/nftSidebar/nftSidebar'
 
 const router = createBrowserRouter([
   {
@@ -116,6 +118,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/buttons',
         element: <Buttons />,
+      },
+      {
+        path: 'stories/nftSidebar',
+        element: <NFTSidebarComponent />,
       },
     ],
   },
