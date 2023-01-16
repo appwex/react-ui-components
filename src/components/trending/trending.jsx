@@ -1,16 +1,16 @@
 import './trending.css'
 import { useState } from 'react'
 
-import { ReactComponent as Heart } from '../../assets/svg/heart.svg'
-import { ReactComponent as Arrows } from '../../assets/svg/arrows.svg'
-import Artwork1 from '../../assets/images/artwork1.png'
-import Artwork2 from '../../assets/images/artwork2.png'
-import Artwork3 from '../../assets/images/artwork3.png'
-import Artwork4 from '../../assets/images/artwork4.png'
-import Avatar1 from '../../assets/images/avatar-artwork1.png'
-import Avatar2 from '../../assets/images/avatar-artwork2.png'
-import Avatar3 from '../../assets/images/avatar-artwork3.png'
-import Avatar4 from '../../assets/images/avatar-artwork4.png'
+import artwork1 from '../../assets/images/artwork1.png'
+import artwork2 from '../../assets/images/artwork2.png'
+import artwork3 from '../../assets/images/artwork3.png'
+import artwork4 from '../../assets/images/artwork4.png'
+import avatar1 from '../../assets/images/avatar-artwork1.png'
+import avatar2 from '../../assets/images/avatar-artwork2.png'
+import avatar3 from '../../assets/images/avatar-artwork3.png'
+import avatar4 from '../../assets/images/avatar-artwork4.png'
+
+import Artwork from './artwork'
 
 const Trending = () => {
   const [dark, toggleMode] = useState(false)
@@ -51,109 +51,45 @@ const Trending = () => {
 
       <div className="trending-artworks">
         {/* art 1 */}
-        <div className="trending-artworkBox">
-          <div className="trending-picture">
-            <img src={Artwork1} alt="artwork" />
-            <Heart />
-            <span>20h Left</span>
-          </div>
-
-          <div className="trending-artDescription bgColorDarkMode">
-            <div className="trending-auction ">
-              <div className="trending-auctionBox bgColorDarkMode">
-                <p className="fontColorDarkMode ">Auction Ends</p>
-                <p>
-                  <span className="auctionBgDarkMode"> 19 </span> :
-                  <span className="auctionBgDarkMode"> 58 </span> :
-                  <span className="auctionBgDarkMode"> 26 </span>
-                </p>
-              </div>
-            </div>
-            <div className="trending-artName">
-              <h3 className="fontColorDarkMode">Weary Artwork</h3>
-            </div>
-            <div className="trending-autor">
-              <img src={Avatar1} alt="autor's avatar" />
-              <span>Darwin Shaffer</span>
-              <div className="trending-raiting">
-                <Arrows />
-                <span>4.5 ETH</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Artwork
+          image={artwork1}
+          avatar={avatar1}
+          timeLeft="20h Left"
+          isTimeLeft={true}
+          artName="Weary Artwork"
+          autor="Darwin Shaffer"
+          raiting="4.5 ETH"
+          isAuction={true}
+        />
 
         {/* art 2 */}
-        <div className="trending-artworkBox">
-          <div className="trending-picture">
-            <img src={Artwork2} alt="" />
-            <Heart />
-          </div>
-          <div className="trending-artDescription bgColorDarkMode">
-            <div className="trending-artName">
-              <h3 className="fontColorDarkMode">Spectrum of Color</h3>
-            </div>
-            <div className="trending-autor">
-              <img src={Avatar2} alt="" />
-              <span>Chace Rajas</span>
-              <div className="trending-raiting">
-                <Arrows />
-                <span>6.5 ETH</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Artwork
+          image={artwork2}
+          avatar={avatar2}
+          artName="Spectrum of Color"
+          autor="Chace Rajas"
+          raiting="6.5 ETH"
+        />
 
         {/* art 3 */}
-        <div className="trending-artworkBox">
-          <div className="trending-picture">
-            <img src={Artwork3} alt="" />
-            <Heart />
-          </div>
-          <div className="trending-artDescription bgColorDarkMode">
-            <div className="trending-artName">
-              <h3 className="fontColorDarkMode">Shape Artwork</h3>
-            </div>
-            <div className="trending-autor">
-              <img src={Avatar3} alt="" />
-              <span>Sakaw_332</span>
-              <div className="trending-raiting">
-                <Arrows />
-                <span>3.5 ETH</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Artwork
+          image={artwork3}
+          avatar={avatar3}
+          artName="Shape Artwork"
+          autor="Sakaw_332"
+          raiting="3.5 ETH"
+        />
 
         {/* art 4 */}
-        <div className="trending-artworkBox">
-          <div className="trending-picture">
-            <img src={Artwork4} alt="" />
-            <Heart />
-            <span>15h Left</span>
-          </div>
-          <div className="trending-artDescription bgColorDarkMode">
-            <div className="trending-auction unvisible bgColorDarkMode">
-              <div className="trending-auctionBox">
-                <p className="fontColorDarkMode ">Auction Ends</p>
-                <p>
-                  <span>19</span> : <span>58</span> : <span>26</span>
-                </p>
-              </div>
-            </div>
-            <div className="trending-artName">
-              <h3 className="fontColorDarkMode">Colorful Art</h3>
-            </div>
-            <div className="trending-autor">
-              <img src={Avatar4} alt="" />
-              <span>Anna Sadboy</span>
-              <div className="trending-raiting">
-                <Arrows />
-                <span>3.5 ETH</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Artwork
+          image={artwork4}
+          avatar={avatar4}
+          timeLeft="15h Left"
+          isTimeLeft={true}
+          artName="Colorful Art"
+          autor="Anna Sadboy"
+          raiting="3.5 ETH"
+        />
       </div>
     </div>
   )
