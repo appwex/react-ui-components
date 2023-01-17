@@ -25,6 +25,7 @@ const StoryPage = () => {
       <Link to={`/stories/graph-component`}>Graph Card</Link>
       <Link to={'/stories/buttons'}>buttons</Link>
       <Link to={'/stories/trending'}>Trending</Link>
+      <Link to={'/stories/nftSidebar'}>NFT Sidebar</Link>
     </div>
   )
 }
