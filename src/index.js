@@ -23,9 +23,11 @@ import { Buttons } from 'routes/buttons/buttons'
 import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
+import CoinValue from 'routes/coin-value/coinValue'
 import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
+import Trending from 'components/trending/trending'
 import CoinValue from 'routes/coin-value/coinValue'
 import NFTSidebarComponent from 'routes/nftSidebar/nftSidebar'
 
@@ -120,6 +122,9 @@ const router = createBrowserRouter([
         element: <Buttons />,
       },
       {
+        path: 'stories/trending',
+        element: <Trending />,
+      },
         path: 'stories/nftSidebar',
         element: <NFTSidebarComponent />,
       },
