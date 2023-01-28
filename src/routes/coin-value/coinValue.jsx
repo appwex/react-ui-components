@@ -31,10 +31,6 @@ const dataList = [
 ]
 
 const CoinValue = () => {
-  const children = {
-    name: 'Ade',
-  }
-  //class of dark toggle the dark mode
   return (
     <section className="">
       <div className="coins-container">

@@ -28,8 +28,8 @@ import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
 import Trending from 'components/trending/trending'
-//import CoinValue from 'routes/coin-value/coinValue'
 import NFTSidebarComponent from 'routes/nftSidebar/nftSidebar'
+import TopCreators from 'components/topCreators/TopCreators'
 
 const router = createBrowserRouter([
   {
@@ -128,6 +128,10 @@ const router = createBrowserRouter([
       {
         path: 'stories/nftSidebar',
         element: <NFTSidebarComponent />,
+      },
+      {
+        path: 'stories/topcreators',
+        element: <TopCreators />,
       },
     ],
   },
