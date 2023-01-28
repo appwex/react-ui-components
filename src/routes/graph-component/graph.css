@@ -1,0 +1,88 @@
+.main-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.graph-container {
+  width: 1030px;
+  /* height: 500px; */
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.header-data {
+  margin-top: 2.875rem;
+  margin-left: 2.125rem;
+  margin-right: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.main-data > h1 {
+  color: #0b43d6;
+  font-size: 34px;
+  line-height: 43px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.main-data > p {
+  margin-top: 1.0625rem;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3f3f3f;
+}
+
+.main-data > p > span {
+  color: #21d91d;
+}
+
+.dropdown {
+  padding: 0.625rem;
+  color: #3f3f3f;
+}
+
+select {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  border: none;
+  width: 100%;
+  background: white;
+  vertical-align: middle;
+  background: transparent;
+}
+
+.graph {
+  display: grid;
+  place-items: center;
+  margin-top: 2.125rem;
+  padding-bottom: 2.875rem;
+}
+
+.tooltip-container {
+  border: none;
+  outline: none;
+  width: 6.25rem;
+  border-radius: 0.625rem;
+  background-color: #3f3f3f;
+}
+
+.tooltip-container > p {
+  padding: 1.125rem;
+  color: white;
+  text-align: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}

@@ -5,8 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App'
 
-import ErrorPage from './routes/error-page/error-page'
-import StoryPage from './routes/story-page/story-page'
+import ErrorPage from 'routes/error-page/error-page'
+import StoryPage from 'routes/story-page/story-page'
 import Homepage from 'routes/homepage/homepage'
 import TestPage from 'routes/test-page.jsx/test-page'
 import ComponentStory from 'routes/story-page/componet'
@@ -18,14 +18,18 @@ import Cookie from 'routes/cookie/cookie'
 import SidebarMenuComponent from 'routes/sidebarmenu-component/sidebarmenu'
 import CardPayment from 'routes/card-payment/CardPayment'
 import Profile from 'routes/profile/profile'
-import CoinValue from 'routes/coin-value/coinValue'
 import CodeWriter from 'routes/mock-code-writer/code-writer'
 import { Buttons } from 'routes/buttons/buttons'
 import HeaderSearchBar from 'routes/header-search-bar/HeaderSearchBar'
 import AddImformation from 'routes/add-information/add-information'
 import Referral from 'routes/referral/referral'
+import CoinValue from 'routes/coin-value/coinValue'
+import Graph from './routes/graph-component/graph'
 import ChartStory from 'routes/chart-page'
 import Activities from 'routes/recent-activities/recent-activities'
+import Trending from 'components/trending/trending'
+//import CoinValue from 'routes/coin-value/coinValue'
+import NFTSidebarComponent from 'routes/nftSidebar/nftSidebar'
 
 const router = createBrowserRouter([
   {
@@ -86,6 +90,10 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
+        path: 'stories/graph-component',
+        element: <Graph />,
+      },
+      {
         path: 'stories/headersearchbar',
         element: <HeaderSearchBar />,
       },
@@ -112,6 +120,14 @@ const router = createBrowserRouter([
       {
         path: 'stories/buttons',
         element: <Buttons />,
+      },
+      {
+        path: 'stories/trending',
+        element: <Trending />,
+      },
+      {
+        path: 'stories/nftSidebar',
+        element: <NFTSidebarComponent />,
       },
     ],
   },
